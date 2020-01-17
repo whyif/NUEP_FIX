@@ -72,8 +72,8 @@ class Mainmenu extends React.Component {
       </Menu>
       </Header>
       <Content style={{ padding: '0 50px' }}>
-        <div id="annoucement"
-        style={{ background: '#fff', padding: 24, minHeight: 280 }}>公告区域</div>
+        <div id="announcement"
+        style={{ background: '#fff', padding: 24, minHeight: 580 }}>公告区域</div>
       </Content>
       <Footer style={{ textAlign: 'center' }}>技术支持:先锋网络中心</Footer>
       </Layout>
@@ -83,4 +83,4 @@ class Mainmenu extends React.Component {
 
 
 ReactDOM.render(<Mainmenu />, document.getElementById('mainmenu'));
-          
+ReactDOM.render(<h1>Hello 这里可以添加公告</h1>,document.getElementById('announcement'))
